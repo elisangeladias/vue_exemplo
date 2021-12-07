@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contador Vue</title>
+  </head>
+  <body>
+    <div id="meuapp">
+      <h1>{{ titulo }} - {{subtitulo}}</h1>
+      <p>Valor atual: {{ contador }}</p>
+      <button v-on:click="addContador">Incrementar</button>
+      <button v-on:click="decContador">Decrementar</button>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="meucodigo.js"></script>
+  </body>
+</html>
